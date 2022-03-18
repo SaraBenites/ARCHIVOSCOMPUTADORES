@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <div id="CONTENIDO"> 
+        <center><h1>BIENVENIDO</h1></center>
+
+        <form id="FEP">
+            <div id="formulario">
+                <h2>Cantidad de computadores comprados</h2>
+                <input id="cantidad" type="number" />
+                <p>
+                    <button onclick="inyectar()">Comprar</button>
+                </p>
+            </div>
+        </form>
+        
+
+
+            <div id="cuenta" style="display: none">
+
+                <p>Valor de compra</p>
+                <input id="valorCompra" type="number" />
+
+                <p>Valor de descuento</p>
+                <input id="valorDescuento" type="text" />
+
+                <p>Valor total</p>
+                <input id="total" type="number" />
+
+                <p id="descuento"></p>
+                <button onclick="window.location.href='enlace.html'">Realizar otra compra</button>
+            </div>
+        
+        </div>
+    <script src="index.js"> </script>
+</body>
+</html>

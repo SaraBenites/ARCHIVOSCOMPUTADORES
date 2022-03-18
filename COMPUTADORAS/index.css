@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+
+body {
+    background: radial-gradient(rgb(177, 187, 221), rgb(181, 154, 189), blanchedalmond);
+    margin-left: 35%;
+    margin-bottom: 10px;
+    font-family: 'Fredoka', sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+#cuenta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(86, 139, 139);
+    width: 200px;
+    height: 300px;
+    margin-right: 40px;
+    position:absolute;
+    margin-left: 45%;
+    border-radius: 15px;
+    z-index: 100;    
+
+}
+
+#BarraHTML {
+    background-color: rgb(250, 182, 182);
+    padding: 20px;
+        position: static;
+        width: 1310px;
+        height: 40px;
+        z-index: 100;
+        top: 60px;
+        float:top;
+    background-image: url(data:image/png;base64,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);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    float: right;
+      
+}      
+
+   #boton {
+        background-color: rgb(86, 139, 139);
+        width: 110px;
+        height: 80px;
+        position: center;
+        padding:content; 
+        color: rgb(250, 182, 182);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50%;
+        font-family: 'Fredoka', sans-serif;
+
+   }
+
+        
+   
+
+    #FEP {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(86, 139, 139);
+        border-radius: 15px;
+        z-index: 100;
+        position: center;
+        padding:content; 
+        color: rgb(250, 182, 182);
+        position: relative;
+        font-family: 'Fredoka', sans-serif;
+        width: 1100px;
+        margin-left: 10%;
+                              
+    }
+
+
+
+    #CONTENIDO {
+        background-image: url(https://cdn5.dibujos.net/dibujos/pintados/202025/un-ordenador-portatil-la-casa-la-habitacion-11845599.jpg);
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-position: center center;
+        width: 1400px;
+        height: 800px;
+        color: aliceblue;
+                       
+    }
+
+    #real {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(86, 139, 139);
+       
+        
+    }
+
+    #descuento {
+        color: red;
+        font-family: 'Fredoka', sans-serif;
+    }
